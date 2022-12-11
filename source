@@ -4,7 +4,7 @@ windll.shcore.SetProcessDpiAwareness(1)
 
 # Create window
 window = tk.Tk()
-window.title("Flail Base Power CalcuCambriar")
+window.title("Flail Calc")
 
 # Set default background color
 window.configure(bg='#000000')
