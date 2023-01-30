@@ -44,10 +44,10 @@ entry_80BP.grid(row=4, column=1)
 # Function for calculating base power
 def calculate_bp(maxHP):
     maxHP = int(entry_maxHP.get())
-    bp200 = int(maxHP * 2/64)
-    bp150 = int(maxHP * 6/64)
-    bp100 = int(maxHP * 13/64)
-    bp80 = int(maxHP * 22/64)
+    bp200 = int(maxHP * 1.999999/64)
+    bp150 = int(maxHP * 5.999999/64)
+    bp100 = int(maxHP * 12.999999/64)
+    bp80 = int(maxHP * 21.999999/64)
 
     entry_200BP.delete(0, "end")
     entry_200BP.insert(0, bp200)
